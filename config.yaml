@@ -1,0 +1,5 @@
+projDir:
+  testProj: './testProj'
+  blockchain: '/Users/yans/workDir/advokate-blockchain-midway'
+  point: '/Users/yans/workDir/advokate-middle-platform-midway'
+  funpoints: '/Users/yans/workDir/advokate-fun-points-midway'

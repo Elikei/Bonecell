@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "tslint-midway-contrib"
+  ],
+  "rules": {
+    // 短代碼檢查
+    "no-unused-expression": false
+  }
+}
