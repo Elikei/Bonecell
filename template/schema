@@ -1,0 +1,20 @@
+import * as joi from 'joi';
+
+// export const findListIn = {
+//   offset: joi
+//     .number()
+//     .required()
+//     .description('查询起始位置 默认0'),
+//   limit: joi
+//     .number()
+//     .required()
+//     .description('偏移量 默认10'),
+//   search: joi.string().description('搜索条件 标题模糊搜索')
+// };
+
+// export const findInfoIn = {
+//   id: joi
+//     .string()
+//     .required()
+//     .description('主键id')
+// };

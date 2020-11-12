@@ -1,0 +1,7 @@
+// export interface ICreateIn {
+//   name: string;
+// }
+
+// export interface ICreateOut {
+//   id: string;
+// }
