@@ -1,0 +1,14 @@
+
+  @sjp({
+    api: '🦴',
+    path: '/🍖',
+    summary: '🍖',
+    // query: schemas.S🍗In,
+    body: schemas.S🍗In,
+    responses: schemas.S🍗Out,
+    description: '',
+    auth: 'apiKey'
+  })
+  async 🍖(ctx: Context) {
+    ctx.body = await this.moheService.🍖({ctx.request.body});
+  }

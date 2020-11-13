@@ -1,0 +1,4 @@
+
+async 🍖(params: ICommon.I🍗In): Promise<ICommon.I🍗Out> {
+  return {};
+}

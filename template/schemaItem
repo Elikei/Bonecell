@@ -1,0 +1,17 @@
+
+export const S🍗In = {
+  code: joi.string().description('编码')
+};
+
+export const S🍗Out =
+// joi.array().items(
+  joi.object().keys({
+  // address: joi
+  //   .string()
+  //   .allow(null)
+  //   .allow('')
+  //   .required()
+  //   .max(80)
+  //   .description('详细地址'),
+  });
+//);
