@@ -1,8 +1,9 @@
 # Bonecell🦴
 
 ## 初始化步骤
-1. 在config.yaml中添加项目路径
-2. (可选) 添加快捷方式（添加后会导致功能不可用）
+1. npm i
+2. 在config.yaml中添加项目路径
+3. (可选) 添加快捷方式（添加后会导致功能不可用）
 `alias bone='node [bonecell.js路径]'`
 
 ## 支持操作
