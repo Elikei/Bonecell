@@ -1,29 +1,30 @@
 import { provide, Context, inject } from 'midway';
-import { I🦴 } from '../../lib/services/🦴';
+import { I🦴Service } from '../../lib/services/🥚';
 import { BaseController } from '../../base/base.controller';
 import {
   SwaggerJoiController as sjc,
   SwaggerJoiPost as sjp,
   SwaggerJoiGet as sjg
 } from 'midway-joi-swagger2';
-import * as schemas from '../../lib/schemas/🦴';
+import * as schemas from '../../lib/schemas/🥚';
 
 @provide()
-@sjc({ path: 'api/🦴', api: '🦴', description: '' })
+@sjc({ path: '/api/🥚', api: '🥚', description: '' })
 export class 🦴controller extends BaseController {
   @inject()
-  private 🦴Service: return false;
+  // low case⬇️
+  private 🦴Service: I🦴Service;
 
   // @sjp({
   //   path: '/example',
-  //   api: '🦴',
+  //   api: '🥚',
   //   summary: 'example',
   //   body: Schemas.SexampleIn,
   //   responses: Schemas.SexampleOut,
   //   description: '例'
   // })
   // async create(ctx: Context) {
-  //   ctx.body = await this.applicationService.example(ctx.request.body);
+  //   ctx.body = await this.🦴Service.example(ctx.request.body);
   // }
 
 }

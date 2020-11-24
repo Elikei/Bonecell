@@ -1,7 +1,7 @@
 import { inject, provide, plugin, config, init } from 'midway';
-import { IxxxModel } from '../models/xxx.model';
+// import { IxxxModel } from '../models/xxx.model';
 import { BaseService } from '../../base/base.service';
-import * as I🦴 from '../interfaces/🦴';
+import * as I🦴 from '../interfaces/🥚';
 import { IAuth } from '../../lib/interfaces/sys-user';
 import * as _ from 'lodash';
 import { Sequelize } from 'sequelize-typescript';
