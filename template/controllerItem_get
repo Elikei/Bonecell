@@ -1,0 +1,13 @@
+
+  @sjg({
+    api: '🥩',
+    path: '/🍟',
+    summary: '🍟',
+    query: Schemas.S🍔In,
+    responses: Schemas.S🍔Out,
+    description: '🍟',
+    auth: 'apiKey'
+  })
+  async 🍟(ctx: Context) {
+    ctx.body = await this.🍗Service.🍟(ctx.query);
+  }

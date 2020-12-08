@@ -1,0 +1,8 @@
+{
+    "apiName": "testapi",
+    "apiGroup": "app-message",
+    "projName": "funpoints",
+    "method": "get",
+    "paramIn": [],
+    "paramOut": []
+}

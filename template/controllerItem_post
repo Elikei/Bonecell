@@ -1,0 +1,13 @@
+
+  @sjp({
+    api: '🥩',
+    path: '🍟',
+    summary: '🍟',
+    body: Schemas.S🍔In,
+    responses: Schemas.S🍔Out,
+    description: '🍟',
+    auth: 'apiKey'
+  })
+  async 🍟(ctx: Context) {
+    ctx.body = await this.🍗Service.🍟(ctx.request.body);
+  }

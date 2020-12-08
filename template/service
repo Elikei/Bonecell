@@ -1,16 +1,16 @@
 import { inject, provide, plugin, config, init } from 'midway';
 // import { IxxxModel } from '../models/xxx.model';
 import { BaseService } from '../../base/base.service';
-import * as I🦴 from '../interfaces/🥚';
+import * as I🍖 from '../interfaces/🥩';
 import { IAuth } from '../../lib/interfaces/sys-user';
 import * as _ from 'lodash';
 import { Sequelize } from 'sequelize-typescript';
 import { Op } from 'sequelize';
 
-export interface I🦴Service extends 🦴Service {}
+export interface I🍖Service extends 🍖Service {}
 
 @provide()
-export class 🦴Service extends BaseService {
+export class 🍖Service extends BaseService {
   @inject()
   private xxxModel: IxxxModel;
 
